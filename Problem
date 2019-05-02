@@ -29,62 +29,62 @@ int main()
 	cout << "\nKindly input the Year you wanted: ";
 	cin >> Year;
 	
-	if (Month == 1 && Day <= 31)
+	if (Month == 1 && Day <= 31 && Day >=1)
 	{
 		cout << "January " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";
 	}
-	else if (Month == 2 && Day <= 29)
+	else if (Month == 2 && Day <= 29 && Day >=1)
 	{
 		cout << "February " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";
 	}
-	else if (Month == 3 && Day <= 31)
+	else if (Month == 3 && Day <= 31 && Day >=1)
 	{
 		cout << "March " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";
 	}
-	else if (Month == 4 && Day <= 30)
+	else if (Month == 4 && Day <= 30 && Day >=1)
 	{
 		cout << "April " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";
 	}
-	else if (Month == 5 && Day <= 31)
+	else if (Month == 5 && Day <= 31 && Day >=1)
 	{
 		cout << "May " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";
 	}
-	else if (Month == 6 && Day <= 30)
+	else if (Month == 6 && Day <= 30 && Day >=1)
 	{
 		cout << "June " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";	
 	}
-	else if (Month == 7 && Day <= 31)
+	else if (Month == 7 && Day <= 31 && Day >=1)
 	{
 		cout << "July " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";	
 	}
-	else if (Month == 8 && Day <= 31)
+	else if (Month == 8 && Day <= 31 && Day >=1)
 	{
 		cout << "August " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";	
 	}
-	else if (Month == 9 && Day <= 30)
+	else if (Month == 9 && Day <= 30 && Day >=1)
 	{
 		cout << "September " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";	
 	}
-	else if (Month == 10 && Day <= 31)
+	else if (Month == 10 && Day <= 31 && Day >=1)
 	{
 		cout << "October " << Day << ", " << Year;
 		cout << "\nThank you and Have a good day.";	
 	}
-	else if (Month == 11 && Day <= 30)
+	else if (Month == 11 && Day <= 30 && Day >=1)
 	{
 		cout << "November " << Day << ", " << Year;	
 		cout << "\nThank you and Have a good day.";
 	}
-	else if (Month == 12 && Day <= 31)
+	else if (Month == 12 && Day <= 31 && Day >=1)
 	{
 		cout << "December " << Day << ", " << Year;	
 		cout << "\nThank you and Have a good day.";
@@ -96,4 +96,4 @@ int main()
 	}
 _getch();
 return 0;
-}
+} 
